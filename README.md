@@ -1,2 +1,6 @@
-# SEng4051_pytest
-This repo contains an individual assignment for Software Testing and Quality Assurance course, focusing on Pytest testing framework.
+# Pytest
+The [pytest](https://github.com/EzekielMisgae) framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.
+
+pytest requires: Python 3.8+ or PyPy3.
+
+PyPI package name: pytest
