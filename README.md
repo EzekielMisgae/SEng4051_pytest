@@ -22,52 +22,24 @@ Computer-Aided Software Engineering (CASE) tools are software solutions designed
 
 ## Practical Examples
 
-### Unit Testing with Pytest
+### Unit Testing with Pytest(assertion test)
 ```python
-# test_calculator.py
-
-def add(a, b):
-    return a + b
-
-def test_add():
-    assert add(2, 3) == 5
-    assert add(-1, 1) == 0
+# test_assertion.py
 ```
 
 ### Parametrized Testing
 ```python
-import pytest
-
-@pytest.mark.parametrize("input,expected", [
-    ("pytest", True),
-    ("unit_test", False)
-])
-def test_is_pytest(input, expected):
-    assert ("pytest" in input) == expected
+# test_parametrize.py
 ```
 
 ### Using Fixtures
 ```python
-import pytest
-
-@pytest.fixture
-def sample_data():
-    return {"name": "pytest", "version": "7.0.0"}
-
-def test_sample_data(sample_data):
-    assert sample_data["name"] == "pytest"
+# test_fixture.py
 ```
 
 ### Mocking with Pytest
 ```python
-from unittest.mock import MagicMock
-
-def external_service():
-    return "real data"
-
-def test_mocking():
-    mock_service = MagicMock(return_value="mock data")
-    assert mock_service() == "mock data"
+# test_mock.py
 ```
 
 ---
