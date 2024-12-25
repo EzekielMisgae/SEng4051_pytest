@@ -27,27 +27,6 @@ Computer-Aided Software Engineering (CASE) tools are software solutions designed
 # test_assertion.py
 ```
 
-
-To execute it::
-
-    $ pytest
-    ============================= test session starts =============================
-    collected 1 items
-
-    test_assertion.py F
-
-    ================================== FAILURES ===================================
-    _________________________________ test_answer _________________________________
-
-        def test_answer():
-    >       assert inc(3) == 5
-    E       assert 4 == 5
-    E        +  where 4 = inc(3)
-
-    test_assertion.py:5: AssertionError
-    ========================== 1 failed in 0.04 seconds ===========================
-
-
 Due to ``pytest``'s detailed assertion introspection, only plain ``assert`` statements are used. See `getting-started <https://docs.pytest.org/en/stable/getting-started.html#our-first-test-run>`_ for more examples.
 
 ### Parametrized Testing
