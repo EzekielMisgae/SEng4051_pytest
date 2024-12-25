@@ -96,6 +96,3 @@ Due to ``pytest``'s detailed assertion introspection, only plain ``assert`` stat
 - Selenium Documentation: https://www.selenium.dev/documentation/
 
 ---
-
-This README aims to provide a quick yet thorough introduction to Pytest for software testing. For further details, explore the official documentation and community resources.
-
